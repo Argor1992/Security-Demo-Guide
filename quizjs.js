@@ -24,7 +24,7 @@ const quiz = [
     },
 
     {
-        q:'Welche der folgenden Aussagen sind zu Malewareg falsch? ',
+        q:'Welche der folgenden Aussagen sind zu Maleware falsch? ',
         options:[
             'Nur Dateien vertrauen, die aus vertrauten Quellen stammen.',
             'Malware Infektionen beschränken sich nicht auf ein Gerät und können sich verbreiten.',
