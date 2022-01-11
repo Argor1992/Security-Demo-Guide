@@ -211,6 +211,18 @@ a.button {
     background: url("pictures/maleware/MalwareArten.jpg") top right no-repeat fixed;
     background-size: cover;
 }
+.image.trojanerImage{
+    background: url("pictures/maleware/trojaner.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+.image.adwareImage{
+    background: url("pictures/maleware/addware.png") top right no-repeat fixed;
+    background-size: cover;
+}
+.image.virenImage{
+    background: url("pictures/maleware/virus.jpeg") top right no-repeat fixed;
+    background-size: cover;
+}
 
 
 
