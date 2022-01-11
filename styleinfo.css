@@ -191,8 +191,24 @@ a.button {
     height: 100%;
 }
 
+
 .image.malewareImage {
     background: url("pictures/maleware/Malware-b2.png") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.keyloggerImage{
+    background: url("pictures/maleware/Keylogger.jpeg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.schwachstellenImage{
+    background: url("pictures/maleware/Schwachstellen.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.malwareartenImage{
+    background: url("pictures/maleware/MalwareArten.jpg") top right no-repeat fixed;
     background-size: cover;
 }
 
