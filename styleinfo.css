@@ -241,6 +241,31 @@ a.button {
     background-size: cover;
 }
 
+.image.socialEngineeringImage {
+    background: url("pictures/firm/social_engineering_attack.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.weakestLinkImage {
+    background: url("pictures/firm/weakest_link.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.protectionAgainstSocialEngineeringImage {
+    background: url("pictures/firm/protection_against_social_engineering.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.securityTrainingImage {
+    background: url("pictures/firm/security_training.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.richSolutionsImage {
+    background: url("pictures/firm/Rich_Solutions.png") top right no-repeat fixed;
+    background-size: cover;
+}
+
 @media (max-width: 500px){
     .Header {
         font-size: 2.2rem;
