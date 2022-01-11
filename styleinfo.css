@@ -295,7 +295,7 @@ a.button {
 }
 
 
-/*Bilder für Firma */
+/*Bilder für Support-Scam */
 .image.supportScamImage{
     background: url("pictures/scam1.jpg") top right no-repeat fixed;
     background-size: cover;
@@ -308,6 +308,11 @@ a.button {
 
 .image.supportScamImageAnyDesk{
     background: url("pictures/scam3.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.supportScamImageAnyCIA{
+    background: url("pictures/cia.jpg") top right no-repeat fixed;
     background-size: cover;
 }
 
