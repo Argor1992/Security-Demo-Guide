@@ -311,6 +311,11 @@ a.button {
     background-size: cover;
 }
 
+.image.supportScamImageAnyCIA{
+    background: url("pictures/cia.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
 
 
 
