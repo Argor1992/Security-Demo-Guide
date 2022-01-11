@@ -345,6 +345,11 @@ a.button {
     background-size: cover;
 }
 
+.image.manipulationImage {
+    background: url("pictures/firm/manipulation.png") top right no-repeat fixed;
+    background-size: cover;
+}
+
 
 
 
