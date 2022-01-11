@@ -191,17 +191,58 @@ a.button {
     height: 100%;
 }
 
+/*Bilder für Malware */
 .image.malewareImage {
     background: url("pictures/maleware/Malware-b2.png") top right no-repeat fixed;
     background-size: cover;
 }
 
+.image.keyloggerImage{
+    background: url("pictures/maleware/Keylogger.jpeg") top right no-repeat fixed;
+    background-size: cover;
+}
 
+.image.schwachstellenImage{
+    background: url("pictures/maleware/Schwachstellen.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.malwareartenImage{
+    background: url("pictures/maleware/MalwareArten.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+
+
+/*Bilder für Dropping */
 .image.droppingImage {
     background: url("pictures/dropping/usbdrop.png") top right no-repeat fixed;
     background-size: cover;
 }
 
+.image.mediaDroppingImage{
+    background: url("pictures/media_dropping1.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.mediaDroppingImageUmsetzung{
+    background: url("pictures/media_dropping2.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.mediaDroppingImageSchutz{
+    background: url("pictures/media_dropping4.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.mediaDroppingImageSchutz2{
+    background: url("pictures/media_dropping3.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+
+
+/*Bilder für Phishing */
 .image.phishingImage {
     background: url("pictures/phishing/phishing.jpg") top right no-repeat fixed;
     background-size: cover;
@@ -241,6 +282,9 @@ a.button {
     background-size: cover;
 }
 
+
+
+/*Bilder für Firma */
 .image.socialEngineeringImage {
     background: url("pictures/firm/social_engineering_attack.jpg") top right no-repeat fixed;
     background-size: cover;
@@ -265,6 +309,10 @@ a.button {
     background: url("pictures/firm/Rich_Solutions.png") top right no-repeat fixed;
     background-size: cover;
 }
+
+
+
+
 
 @media (max-width: 500px){
     .Header {
