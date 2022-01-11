@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>Social Engineering</title>
+    <link rel="stylesheet" href="stylequiz.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+</head>
+<body>
+
+<section class="hauptbar">
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="index.html">Home </a></li>
+            <li><a href="">First Chapter </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="phishing.html">Information</a></li>
+                        <li><a href="phishingdemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Second Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="dropping.html">Information</a></li>
+                        <li><a href="droppingdemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Third Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="maleware.html">Information</a></li>
+                        <li><a href="malewaredemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Fourth Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="scam.html">Information</a></li>
+                        <li><a href="#">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="#">Fifth Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="firminfo.html">Information</a></li>
+                        <li><a href="firmdemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="quiz.html">QUIZ</a>
+            </li>
+
+        </ul>
+    </div>
+
+</section>
+
+<section class="quizhaupt">
+
+    <div class="custome-box home-box">
+        <h3>Anweisungen</h3>
+        <p>Es gibt insgesamt:<span class="total-questions">10</span> Fragen</p>
+        <p>Da wir sehr viel wert darauf legen, dass Sie auch etwas dabei lernen haben wir uns
+            vorgenommen Ihr Wissen abzufragen!</p>
+        <button type="button" class="btn-quiz" onclick="startQuiz()">Quiz Starten!</button>
+    </div>
+
+    <div class="quiz-box home-box hide">
+
+        <div class="question-number">
+
+        </div>
+
+        <div class="question-text">
+
+        </div>
+
+        <div class="option-container">
+
+        </div>
+
+        <div class="next-btn">
+            <button type="button" class="btn-quiz" onclick="next()">Weiter</button>
+        </div>
+
+        <div class="answer-ind">
+
+        </div>
+    </div>
+
+    <div class="result-box home-box hide">
+        <h1>Ergebnisse</h1>
+        <table>
+            <tr>
+                <td>Anzahl der Fragen</td>
+                <td><span class="total-questions"></span> </td>
+            </tr>
+
+            <tr>
+                <td>Versuche</td>
+                <td><span class="total-attempt"></span> </td>
+            </tr>
+
+            <tr>
+                <td>Richtig</td>
+                <td><span class="total-correct"></span> </td>
+            </tr>
+
+            <tr>
+                <td>Falsch</td>
+                <td><span class="total-wrong"></span> </td>
+            </tr>
+
+            <tr>
+                <td>Prozent</td>
+                <td><span class="percentage"></span> </td>
+            </tr>
+
+            <tr>
+                <td>Score</td>
+                <td><span class="total-score"></span> </td>
+            </tr>
+
+
+        </table>
+        <button type="button" class="btn-quiz" onclick="againQuiz()">Nochmal</button>
+        <button type="button" class="btn-quiz" onclick="goToHome()">Home</button>
+    </div>
+
+
+</section>
+
+
+<script src="quizjs.js"></script>
+<script src="appl.js"></script>
+</body>
+</html>

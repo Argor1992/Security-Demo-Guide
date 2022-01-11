@@ -1,0 +1,77 @@
+Q.1: Welche der folgenden Aussagen sind zu Phishing richtig? 
+	option 0 : 1
+	option 1 : 2 
+	option 2 : 3
+	option 3 : 4
+	option 4 : 5
+
+Q.2: Welche der folgenden Aussagen sind zu Phising richtig? 
+	option 0 : 1
+	option 1 : 2 
+	option 2 : 3
+	option 3 : 4
+	option 4 : 5
+
+Q.3: Welche der folgenden Aussagen sind zu Media Dropping richtig? 
+	option 0 : USB Sticks können Schadsoftware enthalten.
+	option 1 : USB Sticks können immer ohne Bedenken in einen Rechner gesteckt werden, da sie in jedem Fall von einem Antivirus Scanner auf Schadsoftware überprüft werden. 
+	option 2 : Word Makros sind Programme die beim Start eines Word Dokuments automatisch ausgeführt werden können. 
+	option 3 : Beim Einstecken eines USB Sticks sind mögliche Schadsoftware Dateien sofort erkenntlich und der Stick kann im Notfall ausgeworfen werden. 
+	option 4 : Makros beinhalten  hilfreiche Funktionen und sollten daher immer aktiviert werden. 
+
+Q.4: Welche der folgenden Aussagen sind zu Media Dropping richtig? 
+	option 0 : Hinter QR Codes können sich keine schadhafte Inhalte verbergen. 
+	option 1 : Der Inhalt eines QR Codes wird von einem Smartphone auf Schadsoftware überprüft. 
+	option 2 : Einen unbeschrifteten QR Code zu scannen sollte möglichst vermieden werden.  
+	option 3 : QR Codes dienen alleine der Covid-19 Kontaktnachverfolgung. 
+	option 4 : Die Social Engineering Methode Media Dropping setzt auf die Interaktion und Neugier von Personen. 
+
+Q.5: Welche der folgenden Aussagen sind zu Malewareg richtig? 
+	option 0 : Malware kann nur auf einem PC ausgeführt werden und nicht auf einem Handy
+	option 1 : Malware Infektionen beschränken sich nur auf ein Gerät und können sich nicht verbreiten
+	option 2 : Um Malware zu erkennen, sollte man stets ein aktuelles Antivirenprogrammen benutzen
+	option 3 : Betriebssysteme und Programme sollten immer auf den neusten Stand sein
+	option 4 : Nur Dateien vertrauen, die aus vertrauten Quellen stammen
+
+Q.6: Markiere alle Namen, die auf Schadprogramme verweisen 
+	option 0 : Trojaner/Trojanisches Pferd
+	option 1 : Crapware 
+	option 2 : Spyware
+	option 3 : Ransomware
+	option 4 : Bloatware
+
+Q.7: Welche der folgenden Aussagen sind zu SCAMS richtig? 
+	option 0 : 1
+	option 1 : 2 
+	option 2 : 3
+	option 3 : 4
+	option 4 : 5
+
+Q.8: Welche der folgenden Aussagen sind zu SCAMS richtig? 
+	option 0 : 1
+	option 1 : 2 
+	option 2 : 3
+	option 3 : 4
+	option 4 : 5 
+
+Q.9: Welche der folgenden Maßnahmen können einen Betrieb vor Social Engineering Attacken schützen?  
+	option 0 : Regelmäßige Penetrationstests
+	option 1 : Verschlüsselung 
+	option 2 : Ausführliche technische Dokumentation für die Mitarbeiter
+	option 3 : Fortlaufende Mitarbeiterschulungen
+	option 4 : Bunte Flyer
+
+Q.10: Welche Maßnahmen können NICHT vor Scam-Anrufen schützen? 
+	option 0 : Keine internen Telefonnummern durchgeben
+	option 1 : Keine Namen von Kollegen preisgeben
+	option 2 : Durch gezielte Fragen die Identität des Anrufers feststellen
+	option 3 : Keine Software nach Aufforderung am Telefon installieren
+	option 4 : Identitätsnachweis am Telefon mit Personalnummer
+ 
+
+
+
+
+
+
+

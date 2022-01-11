@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*----------info Phishing-----------*/
+
+
+.hauptbar{
+    background-size: cover;
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("pictures/cyber-security.jpg");
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    height: 15%;
+}
+
+
+.menu-bar{
+    text-align: right;
+    flex: 1;
+    background-color: crimson;
+
+}
+.menu-bar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menu-bar ul li{
+    float: left;
+    width: 14.08%;
+    height: 30px;
+    /*background-color: #2c54d7;*/
+    opacity: 0.8;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.menu-bar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: crimson;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+.menu-bar ul li:hover::after{
+    width: 100%;
+}
+
+.menu-bar ul li a:hover {
+    background-color: steelblue;
+    width: 100%;
+    transition: 1s;
+}
+.menu-bar ul li ul li{
+    display: none;
+    width: 100%;
+}
+.menu-bar ul li:hover ul li{
+    display: block;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+
+}
+
+.Header {
+    font-family: Roboto Condensed, sans-serif;
+    text-transform: uppercase;
+    font-size: 3.3em;
+    margin: 2rem 0;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.subhead {
+    max-width: 300px;
+}
+
+.bodytext {
+    display: block;
+    float: left;
+    line-height: 1.5;
+}
+
+.bodytext:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    top: 6px;
+}
+
+.content {
+    padding: 50px;
+    max-height: 100vw;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.sidebar {
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+    background-color: #333;
+    background-image: url("pictures/bgBar-min.png");
+}
+
+#logo {
+    width: 100%;
+    height: 80px;
+    background-color: crimson;
+    background-image: url("pictures/iconssecurity.png");
+    background-size: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: gray;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+}
+
+a.button {
+    color: crimson;
+    font-size: 1.6em;
+    border-bottom: 4px solid crimson;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    float: right;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.active {
+    color: white;
+}
+
+.contentcontainer {
+    max-width: 650px;
+    width: 100%;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    padding-left: 80px;
+    float: left;
+    background-image: url("pictures/bgGrey-min.png");
+}
+
+.imageContainer {
+    height: 100vh;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image.malewareImage {
+    background: url("pictures/maleware/Malware-b2.png") top right no-repeat fixed;
+    background-size: cover;
+}
+
+
+.image.droppingImage {
+    background: url("pictures/dropping/usbdrop.png") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.phishingImage {
+    background: url("pictures/phishing/phishing.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.headerImage {
+    background: url("pictures/Phishing2.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.phishingImageEins {
+    background: url("pictures/what-is-phishing.png") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.phishingImageZwei {
+    background: url("pictures/social_phishing.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.spearImage {
+    background: url("pictures/Spear-Phishing.png") top right no-repeat fixed;
+    background-size: cover;
+}
+.image.pharmingImage {
+    background: url("pictures/pharming-angriff.png") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.whalingImage {
+    background: url("pictures/whaling-attack.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.methodImage {
+    background: url("pictures/phishing0.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+@media (max-width: 500px){
+    .Header {
+        font-size: 2.2rem;
+    }
+    .bodytext:before {
+        display: none;
+    }
+    .imageContainer {
+        display: none;
+    }
+
+    #logo {
+        height: 80px;
+    }
+    .contentcontainer {
+        padding-left: 70px;
+        float: none;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
+
+.mfuenfimg {
+    height: 60%;
+    width: 160%;
+}
+
+.peinsimg {
+    height: 60%;
+    width: 160%;
+}
+
+.deinsimg {
+    height: 60%;
+    width: 160%;
+}
+
+.dzweiimg {
+    height: 60%;
+    width: 160%;
+}
+
+.ddreiimg {
+    height: 60%;
+    width: 160%;
+}
+
+.dvierimg{
+    height: 60%;
+    width: 160%;
+}
+
+
+
+
