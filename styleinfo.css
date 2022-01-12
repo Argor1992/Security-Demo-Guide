@@ -350,6 +350,16 @@ a.button {
     background-size: cover;
 }
 
+.image.dempStartWindowImage {
+    background: url("pictures/firm/start_window.PNG") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.demoSceenshots {
+    width: 20rem;
+    height: 20rem;
+}
+
 
 
 
