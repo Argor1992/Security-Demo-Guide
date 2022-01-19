@@ -224,6 +224,16 @@ a.button {
     background-size: cover;
 }
 
+.image.virenImage{
+    background: url("pictures/maleware/virus.jpeg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.video.supportScamImageDemoVideo{
+    background: url("pictures/maleware/virus.jpeg") top right no-repeat fixed;
+    background-size: cover;
+}
+
 
 
 /*Bilder für Dropping */
@@ -313,6 +323,21 @@ a.button {
 
 .image.supportScamImageAnyCIA{
     background: url("pictures/cia.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.supportScamImageDemoEins{
+    background: url("pictures/scam/man.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.supportScamImageDemoZwei{
+    background: url("pictures/scam/fehler.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.supportScamImageDemoDrei{
+    background: url("pictures/scam/skype.jpeg") top right no-repeat fixed;
     background-size: cover;
 }
 

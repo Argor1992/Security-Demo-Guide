@@ -8,8 +8,8 @@ window.addEventListener('scroll', () => {
         let section = document.querySelector(link.hash);
 
         if(
-            section.offsetTop <= fromTop +55 &&
-            section.offsetTop + section.offsetTop + section.offsetHeight > fromTop +55
+            section.offsetTop <= fromTop + 55 &&
+            section.offsetTop + section.offsetTop + section.offsetHeight > fromTop + 55
         ) {
             link.classList.add('active');
         } else {
