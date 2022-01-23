@@ -335,6 +335,11 @@ a.button {
     background-size: cover;
 }
 
+.image.supportScamImageDemoVier{
+    background: url("pictures/scam/AnyDesk-Invite.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
 
 
 
