@@ -21,8 +21,8 @@
 
 }
 .menu-bar ul{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 .menu-bar ul li{
@@ -48,7 +48,7 @@
 }
 .menu-bar ul li::after{
     content: '';
-    width: 0%;
+    width: 0;
     height: 2px;
     background: crimson;
     display: block;
@@ -229,12 +229,6 @@ a.button {
     background-size: cover;
 }
 
-.video.supportScamImageDemoVideo{
-    background: url("pictures/maleware/virus.jpeg") top right no-repeat fixed;
-    background-size: cover;
-}
-
-
 
 /*Bilder für Dropping */
 .image.droppingImage {
@@ -375,10 +369,6 @@ a.button {
     background-size: cover;
 }
 
-.image.dempStartWindowImage {
-    background: url("pictures/firm/start_window.PNG") top right no-repeat fixed;
-    background-size: cover;
-}
 
 .demoSceenshots {
     width: 20rem;

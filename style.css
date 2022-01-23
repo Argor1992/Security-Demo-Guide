@@ -20,8 +20,8 @@
 
 }
 .menu-bar ul{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -48,7 +48,7 @@
 }
 .menu-bar ul li::after{
     content: '';
-    width: 0%;
+    width: 0;
     height: 2px;
     background: crimson;
     display: block;
@@ -131,7 +131,7 @@
 }
 
 .chapters h1{
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", sans-serif;
     font-size: 60px;
     color: midnightblue;
 }
@@ -183,7 +183,6 @@
 }
 
 .chepter-rich{
-    margin-top: 5%;
     width: 80%;
     height: 100px;
     margin: auto;
