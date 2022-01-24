@@ -371,6 +371,10 @@ a.button {
     background: url("pictures/firm/manipulation.jpg") top right no-repeat fixed;
     background-size: cover;
 }
+.image.authenticationImage {
+    background: url("pictures/firm/two_factor_authentication.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
 
 
 .demoSceenshots {
