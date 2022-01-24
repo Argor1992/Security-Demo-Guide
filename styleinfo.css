@@ -371,8 +371,19 @@ a.button {
     background: url("pictures/firm/manipulation.jpg") top right no-repeat fixed;
     background-size: cover;
 }
+
 .image.authenticationImage {
     background: url("pictures/firm/two_factor_authentication.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.errorImage {
+    background: url("pictures/firm/demo_error.jpeg") top right no-repeat fixed;
+    background-size: cover;
+}
+
+.image.goalImage {
+    background: url("pictures/firm/social_engineering_goal.jpg") top right no-repeat fixed;
     background-size: cover;
 }
 
