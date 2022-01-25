@@ -127,7 +127,7 @@
     text-align: center;
     padding-top: 50px;
     color: white;
-    text-shadow: 0 0 10px black;
+
 }
 
 .chapters h1{
@@ -204,6 +204,21 @@
 .arten-col2 .img-logo {
     height: 150px;
     width: 100%;
+}
+
+.chepter-zero{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
+
+.chepter-zero h2{
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 35px;
+    color: midnightblue;
 }
 
 

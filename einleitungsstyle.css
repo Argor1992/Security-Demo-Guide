@@ -6,6 +6,7 @@
     height: 100%;
     width: 100%;
     background-image: url("pictures/einleitung/chadrick.jpg");
+    background-size: cover;
 }
 
 .contentcv{
@@ -39,6 +40,7 @@ h4 {
     height: 100%;
     width: 100%;
     background-image: url("pictures/einleitung/smoke.jpg");
+    background-size: cover;
 }
 
 .uebertext {
@@ -95,5 +97,61 @@ h4 {
     background: slategrey;
     transition: 1s;
     color: black;
+
+}
+
+.leistungen {
+    height: 100%;
+    width: 100%;
+    background-image: url("pictures/einleitung/smoke.jpg");
+    background-size: cover;
+}
+
+.titel h2{
+    color: #cccccc;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.box-cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.karte{
+    height: 400px;
+    width: 33%;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+h5{
+    color: lightsteelblue;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+}
+
+.pra p{
+    color: lightsteelblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+}
+
+.pra:hover{
 
 }
