@@ -11,7 +11,13 @@
 <section class="hauptbar">
     <div class="menu-bar">
         <ul>
-            <li class="active"><a href="index.html">Home </a></li>
+            <li class="active"><a href="index.html">Home </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="einleitung.html">Einleitung</a></li>
+                    </ul>
+                </div>
+            </li>
             <li><a href="">First Chapter </a>
                 <div class="sub-menu-1">
                     <ul>
@@ -56,9 +62,9 @@
 
             <li><a href="quiz.html">QUIZ</a>
             </li>
+
         </ul>
     </div>
-
 </section>
 
 <section class="droppi-text">
@@ -79,20 +85,16 @@
                         <a class="smoothscroll" href="#drei">02</a>
                     </li>
 
-                    <li class="links">
-                        <a class="smoothscroll" href="#vier">03</a>
-                    </li>
-
                 </ul>
             </nav>
         </div>
 
-        <!-----erster Abschnitt----->
+        <!-----first section----->
         <div id="beschreibungDropping">
             <div class="contentcontainer">
                 <div class="content">
                     <h1 class="Header">DEMO-Datein</h1>
-                    <h2 class="subhead">Demonstration, wie Media Dropping genau aussehen kann</h2>
+                    <h2 class="subhead">Word Dateien mit Makros</h2>
                     <p class="bodytext">Bei der ersten Datei handelt es sich um eine Word Datei, die im Falle eines
                         „echten“ Angriffs dann auf einem Speichermedium abgelegt ist. Der Dateiname heißt
                         „Betriebsgeheimnisse“. Dies soll die Neugier der Mitarbeiter wecken. Diese Word Datei ist
@@ -103,15 +105,6 @@
                         ausführen. In unserer Demo Datei, wird jedoch nichts Schadhaftes ausgeführt, sondern
                         lediglich eine TextBox angezeigt sowie die Wikipedia Website von Social Engineering aufgerufen.
                         Dies soll demonstrieren, wie einfach Makros die Kontrolle über den Rechner übernehmen können.
-                        Die zweite Demo Datei setzt auf einen QR-Code als Medium. Aus aktuellem Anlass wurde dabei
-                        auf einen gefakten „Corona Bestimmungen“ QR-Code gesetzt. Dieser ist mit dem Firmenlogo der
-                        „Rich Solutions“ versehen und soll damit möglichst authentisch aussehen.
-                        In diesem Fall wird auf die Naivität der Mitarbeiter gesetzt, diesen QR-Code zu scannen.
-                        Hinter dem QR-Code können sich jedoch bei realen Angriffen Schadhafte (Download-)Links verbergen.
-                        In dieser Demo Datei gelangt man allerdings mit dem Scannen erneut zur Wikipedia Website von Social Engineering.
-                        Dadurch wird das Prinzip deutlich gemacht, dass sich hinter QR-Codes auch Inhalte verbergen können,
-                        die nicht im Zusammenhang mit dem stehen, wofür sie eigentlich dienen sollten.
-
                         <br>
                     </p>
                 </div>
@@ -124,10 +117,16 @@
         <div id="eins">
             <div class="contentcontainer">
                 <div class="content">
-                    <h1 class="Header">MEDIA DROPPING</h1>
-                    <p class="bodytext">
-                        <img class="deinsimg" src="pictures/dropping/d1.png" alt="">
-
+                    <h1 class="Header">DEMO-DATEIEN</h1>
+                    <h2 class="subhead">QR-Codes</h2>
+                    <p class="bodytext">Die zweite Demo Datei setzt auf einen QR-Code als Medium. Aus aktuellem Anlass wurde dabei
+                        auf einen gefakten „Corona Bestimmungen“ QR-Code gesetzt. Dieser ist mit dem Firmenlogo der
+                        „Rich Solutions“ versehen und soll damit möglichst authentisch aussehen.
+                        In diesem Fall wird auf die Naivität der Mitarbeiter gesetzt, diesen QR-Code zu scannen.
+                        Hinter dem QR-Code können sich jedoch bei realen Angriffen Schadhafte (Download-)Links verbergen.
+                        In dieser Demo Datei gelangt man allerdings mit dem Scannen erneut zur Wikipedia Website von Social Engineering.
+                        Dadurch wird das Prinzip deutlich gemacht, dass sich hinter QR-Codes auch Inhalte verbergen können,
+                        die nicht im Zusammenhang mit dem stehen, wofür sie eigentlich dienen sollten.
                     </p>
 
                 </div>
@@ -137,13 +136,18 @@
             </div>
         </div>
 
-        <!-----zweiter Abschnitt----->
+        <!-----second section----->
         <div id="zwei">
             <div class="contentcontainer">
                 <div class="content">
-                    <h1 class="Header">MEDIA DROPPING</h1>
+                    <h1 class="Header">BEISPIEL RICH SOLUTIONS</h1>
                     <p class="bodytext">
-                        <img class="dzweiimg" src="pictures/dropping/d2.png" alt="">
+                       Im Folgenden wird nun die praktische Umsetzung von Media Dropping und dessen Umsetzung mit Hilfe unserer Demo Dateien erläutert. Das Angriffsopfer ist dabei wieder der Mitarbeiter Chadrick Cuntwell der Rich Solutions.
+                        <br>
+                        <br>
+                        Im Falle eines Angriffs mit unserer präparierten Word-Datei, muss diese zunächst auf einem Speichermedium, beispielsweise auf einem USB Stick, liegen. Dieser infizeirte USB-Stick wird dann mittels einer Tailgaiting Aktion in den Unternehmensräumen der Rich Solutions platziert. In diesem Fall gehen wir davon aus, dass der USB Stick unauffällig auf dem Arbeitsplatz von Chadrick Cuntwell platziert wurde. Um den Angriff noch effektiver zu gestalten, wird der USB-Stick zusätzlich mit der Beschriftung "Betriebsgeheimnisse" versehen. Diese Methodik ist ebenfalls Teil des Social Engineerings und nennt sich "Baiting".
+                        <br>
+                        Nun warten wir als Angreifer auf die menschliche Interaktion. Chadrick Cuntwell endeckt schließlich den USB-Stick und steckt ihn neugierig in seinen PC. Nun ist es fast schon zu spät. Die gleichnamige Word Datei "Betriebsgeheimnisse" beinhaltet Makros, die automatisch beim Öffnen im Hintergrund mit ausgeführt werden. Lediglich eine Zustimmung zum Aktivieren der Makros ist erforderlich. Dies sollte jedoch nicht das größte Hinderniss sein, da die meisten Menschen nicht einschätzen können, was genau ein Makro ist und was es in Hintergrund für Aktionen unbemerkt ausführen kann. Chadrick denk sich also nichts Böses und aktiveirt die Makros. In unserer Demo geschieht an dieser Stelle, wie oben bereits beschrieben, nichts  schadhaftes. Jedoch können mit genau solchen Methoden beispielsweise Chadricks Daten im Hintergrund unbemerkt abgegriffen werden. Chadrick Cuntwell ist folglich, durch seine Neugier, Opfer unseres Media Dropping Angriffs geworden.
 
                     </p>
 
@@ -154,13 +158,13 @@
             </div>
         </div>
 
-        <!-----dritter Abschnitt----->
+        <!-----third section----->
         <div id="drei">
             <div class="contentcontainer">
                 <div class="content">
-                    <h1 class="Header">MEDIA DROPPING</h1>
+                    <h1 class="Header">BEISPIEL RICH SOLUTIONS</h1>
                     <p class="bodytext">
-                        <img class="ddreiimg" src="pictures/dropping/d3.png" alt="">
+                        Im Falle eines Angriffs mit unserem präparerten QR-Code Dokument, muss diese ebenfalls zunächst im Rahmen einer Tailgaiting Aktion in den Unternehmensräumen der Rich Solutions aufgehangen werden. Nach dem unser "Corona-Bestimmungen" Plakat auffällig platziert wurde, ist nun ebenfals wieder die menschliche Interaktion erforderlich. Gehen wir also davon aus, Chadrick Cuntwell sieht dieses Plakat und scannt dieses mit seinem Smartphone. Er denkt, es handele sich um ein offizielles Dokument. Hierbei wird ihm jedoch seine Naivität und Gutgläubigkeit zum Verhängnis. Der QR-Code ist im Falle unserer Demo ebenfalls harmlos. Es soll lediglich verdeutlicht werden, dass sich hinter QR-Codes Inhalte verbergen können, die nicht im Zusammenhang zu den Informationen stehen, die ihn beschreiben. Im Falle eines realen Angriffs wird Chadrick Cuntwell, dann beispielsweise auf eine Phishing-Website weitergeleitet, auf der seine persönlichen Daten abgegriffen werden. Ebenfalls können sich hinter QR-Codes auch Download-Links verbergen, die Maleware auf Chadricks Gerät herunterladen. Chadrick Cuntwell ist folglich, durch seine Naivität und Gutgläubigkeit, Opfer unseres Media Dropping Angriffs geworden.
 
                     </p>
 
@@ -170,25 +174,10 @@
                 <div class="image droppingImage"></div>
             </div>
         </div>
-        <!-----vierter Abschnitt----->
-        <div id="vier">
-            <div class="contentcontainer">
-                <div class="content">
-                    <h1 class="Header">MEDIA DROPPING</h1>
-                    <p class="bodytext">
-                        <img class="dvierimg" src="pictures/dropping/d4.png" alt="">
-
-                    </p>
-
-                </div>
-            </div>
-            <div class="imageContainer">
-                <div class="image droppingImage"></div>
-            </div>
-        </div>
+        
 
 
-        <script src="./info.js"></script>
+        <script src="info.js"></script>
     </div>
 </section>
 </body>
