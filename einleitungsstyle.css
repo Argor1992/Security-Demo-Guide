@@ -119,8 +119,8 @@ h4 {
 .box-cv{
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 400px;
+    align-items: center;
 }
 
 .karte{
