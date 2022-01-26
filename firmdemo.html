@@ -1,3 +1,5 @@
+<!-----Author: Thorsten Zieres, 1297197----->
+
 <html lang="de">
 <head>
     <title>Social Engineering</title>
@@ -119,7 +121,7 @@
                         Um die Demo laufen zu lassen benötigen Sie mindestens Java 11. Nachdem Sie Java installiert haben können Sie zum nächsten Schritt gehen.
                          Ein Popup wird Ihnen den Link anzeigen über den Sie die Unternehmenswebsite erreichen können.
                     </p>
-                        <a class="button" target="_blank" href="https://www.oracle.com/java/technologies/downloads/">Java</a>
+                        <a class="button" target="_blank" href="https://www.oracle.com/java/technologies/downloads/">Aktuelle Java Version</a>
                 </div>
             </div>
             <div class="imageContainer">
@@ -155,8 +157,10 @@
                     <p class="bodytext">
                         Wo Sie jetzt die Demo heruntergeladen haben, müssen Sie jetzt die heruntergeladene zip-Datein entpacken.
                         Navigieren Sie dann in den Ordner und starten sie das Programm companyportal-1.1-SNAPSHOT. Der Start des
-                        Programms kann im schlimmsten Fall ein paar Sekunden dauern. Das Programm funktioniert wie gewollt,
-                        wenn Sie das folgende Fenster auf Ihrem Desktop sehen.
+                        Programms kann im schlimmsten Fall je nach Hardware ~30 Sekunden dauern. Das Programm funktioniert wie gewollt,
+                        wenn Sie das folgende Fenster auf Ihrem Desktop sehen. Unter Linux starten Sie bitte das Programm mit der Konsole.
+                        Navigieren sie dazu bitte mit dem Befehl cd in den target Ordner und führen Sie dann das Programm mit java -jar asdf
+                        aus.
                         <br>
                         <br>
                         <img class="mdrsimg" src="pictures/firm/start_program.PNG" alt="">
@@ -178,10 +182,19 @@
                         Wenn die Demo bei Ihnen richtig gestartet ist, können Sie diesen Abschnitt überspringen.
                         <br>
                         <br>
-                        Falls die Demo bei Ihnen nicht startet kann das folgende Ursachen haben:
-                        Mindestens Java 11 SDK benötigt - mit dem verlinkten SDK funktioniert es definitiv
-                        Mit Konsole testen und Path einrichten um mögliche Ausgabe auszuwerten
+                        Stellen Sie bitte sicher, dass Sie mindestens Java 11 installiert haben. Mit der neusten
+                        Java Version (aktuell Java 17) funktioniert der Start des Programms unter allen Betriebssystemen.
+                        Hier sind die entsprechenden Installationsdateien. Sollten die Installer nicht zu Ihrem
+                        Betriebssystem passen gehen Sie bitte zu oben verlinkten Seite von Oracle. Dort finden Sie
+                        auch andere Versionen.
+
+                        Java 11, 14, 15 und Java 17 wurde unter Windows, MacOs und Linux getestet und hat funktioniert.
                     </p>
+                    <div style="display: flex; width: 100%; justify-content: space-between;">
+						<a class="button" target="_blank" href="downloads/Java/jdk-17_windows-x64_bin.exe" download>Windows</a>
+                        <a class="button" target="_blank" href="downloads/Java/jdk-17_linux-aarch64_bin.tar.gz" download>Linux</a>
+                        <a class="button" target="_blank" href="downloads/Java/jdk-17_macos-aarch64_bin.dmg" download>macOS</a>
+					</div>   
                 </div>
             </div>
             <div class="imageContainer">
