@@ -1,0 +1,229 @@
+<!-----Author: Thorsten Zieres, 1297197----->
+
+<html lang="de">
+<head>
+    <title>Social Engineering</title>
+    <link rel="stylesheet" href="styleinfo.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+</head>
+<body>
+<section class="hauptbar">
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="index.html">Home </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="einleitung.html">Einleitung</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">First Chapter </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="phishing.html">Information</a></li>
+                        <li><a href="phishingdemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Second Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="dropping.html">Information</a></li>
+                        <li><a href="droppingdemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Third Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="maleware.html">Information</a></li>
+                        <li><a href="malewaredemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Fourth Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="scam.html">Information</a></li>
+                        <li><a href="scamdemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Fifth Chapter</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="firminfo.html">Information</a></li>
+                        <li><a href="firmdemo.html">Demo</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="quiz.html">QUIZ</a>
+            </li>
+
+        </ul>
+    </div>
+</section>
+
+<section class="firm-text">
+    <div class="container">
+        <div class="sidebar">
+            <div id="logo"></div>
+            <nav>
+                <ul>
+                    <li class="links">
+                        <a class="smoothscroll" href="#startProgramWindows">01</a>
+                    </li>
+                    <li class="links">
+                        <a class="smoothscroll" href="#startProgramWindows2">02</a>
+                    </li>
+                    <li class="links">
+                        <a class="smoothscroll" href="#startProgramLinux">03</a>
+                    </li>
+                    <li class="links">
+                        <a class="smoothscroll" href="#startProgramMacOs">04</a>
+                    </li>
+                    <li class="links">
+                        <a class="smoothscroll" href="#startProgramMacOs2">05</a>
+                    </li>
+                    <li class="links">
+                        <a class="smoothscroll" href="#startProgramError">06</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="startProgramWindows">
+            <div class="contentcontainer">
+                <div class="content">
+                    <h1 class="Header">Starten unter Windows</h1>
+                    <p class="bodytext">
+                        Unter Windows müssen Sie lediglich den Ordner target öffnen und die Datei company-portal-1.1-SNAPSHOT.jar
+                        doppelklicken. Bitte haben Sie etwas Gedult bis das Programm gestartet ist, was im schlimmsten Fall ~30
+                        Sekunden dauern kann. Das setzen einer Umgebungsvariable ist für das Starten der Demo nicht notwendig, wird
+                        aber benötigt, wenn Sie das Programm über die Konsole öffnen möchten.
+                        <br>
+                        <br>
+                        Sollte das Programm nicht starten, stellen Sie bitte sicher, dass sie mindestens
+                        Java 11 installiert haben. Java 11, 14, 15 und Java 17 wurden unter Windows 10 und 11 getestet und haben funktioniert.
+                    </p>
+                    <a class="button" href="firmdemo.html#startProgram">Zurück</a>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image richSolutionsImage"></div>
+            </div>
+        </div>
+
+        <div id="startProgramWindows2">
+            <div class="contentcontainer">
+                <div class="content">
+                    <h1 class="Header">Starten unter Windows</h1>
+                    <p class="bodytext">
+                        Falls das Programm nach wie vor nicht starten sollte bitte ich Sie eine Umgebungsvariable für Java
+                        zu setzen und das Programm mit der Konsole zu öffnen. Somit können Sie eventuelle Fehlermeldungen
+                        auswerten oder sicherstellen, dass das Programm gestartet ist. Um das Programm zu starten öffnen Sie
+                        bitte das Windows Terminal und navigieren zum Ordner target. Dort geben Sie den Befehl im folgenden Bild
+                        ein. Die Java Version können Sie mit dem Befehl java --version überprüfen.
+                        <br>
+                        <br>
+                        <img style="width: 30rem;" src="pictures/firm/startProgramWindows.PNG" alt="">
+                    </p>
+                    <div style="display: flex; width: 100%; justify-content: space-between;">
+                        <a class="button" href="firmdemo.html#startProgram">Zurück</a>
+                        <a class="button" target="_blank" href="https://java.com/de/download/help/path.html">Umgebungsvariable</a>
+                    </div>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image richSolutionsImage"></div>
+            </div>
+        </div>
+
+        <div id="startProgramLinux">
+            <div class="contentcontainer">
+                <div class="content">
+                    <h1 class="Header">Starten unter Linux</h1>
+                    <p class="bodytext">
+                        Unter Linux müssen Sie das Programm mit der Konsole starten. Sie können zwar die jar-Datei ausführbar machen,
+                        dann funktioniert die Demo jedoch nicht wie vorgesehen. Um die Demo nun auszuführen öffnen Sie bitte das Terminal,
+                        navigieren Sie in die target Ordner und starten das Programm mit dem Befehl im folgenden Bild:
+                        <br>
+                        <br>
+                        <img style="width: 30rem;" src="pictures/firm/startProgramLinux.png" alt="">
+                    </p>
+                    <a class="button" href="firmdemo.html#startProgram">Zurück</a>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image richSolutionsImage"></div>
+            </div>
+        </div>
+
+        <div id="startProgramMacOs">
+            <div class="contentcontainer">
+                <div class="content">
+                    <h1 class="Header">Starten unter macOS</h1>
+                    <p class="bodytext">
+                        Unter macOS können Sie das Programm mit der Konsole starten, indem Sie in den target Ordner
+                        navigieren und dort den Befehl im folgenden Bild eingeben. Alternativ können Sie das Programm
+                        auch ohne Konsole starte, dafür scrollen Sie bitte eine Seite weiter.
+                        <br>
+                        <br>
+                        <img style="width: 30rem;" src="pictures/firm/startProgramMacConsole.jpeg" alt="">
+                    </p>
+                    <a class="button" href="firmdemo.html#startProgram">Zurück</a>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image richSolutionsImage"></div>
+            </div>
+        </div>
+
+        <div id="startProgramMacOs2">
+            <div class="contentcontainer">
+                <div class="content">
+                    <h1 class="Header">Starten unter macOS</h1>
+                    <p class="bodytext">
+                        Das Programm kann auch über einen Rechtsklick auf die jar-Datei mit dem Java-Launcher
+                        gestartet werden. Dazu benötigen Sie allerdings Adminrechte auf dem Gerät.
+                        <br>
+                        <br>
+                        <img style="width: 30rem;" src="pictures/firm/startProgramMacJavaLauncher.jpeg" alt="">
+                    </p>
+                    <a class="button" href="firmdemo.html#startProgram">Zurück</a>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image richSolutionsImage"></div>
+            </div>
+        </div>
+
+        <div id="startProgramError">
+            <div class="contentcontainer">
+                <div class="content">
+                    <h1 class="Header">Übliche Fehler</h1>
+                    <p class="bodytext">
+                        Stellen Sie bitte sicher, dass Sie mindestens Java 11 installiert haben. Mit der neusten
+                        Java Version (aktuell Java 17) funktioniert der Start des Programms unter allen Betriebssystemen.
+                        Java 11, 14, 15 und Java 17 wurden unter Windows, MacOs und Linux getestet und haben funktioniert.
+                        Sollte das Programm nach wie vor nicht starten bitte ich Sie das Programm über die Konsole zu 
+                        starten um mögliche Fehler erkennen zu können.
+                    </p>
+                    <a class="button" href="firmdemo.html#startProgram">Zurück</a>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image errorImage"></div>
+            </div>
+        </div>
+		
+        <script src="./info.js"></script>
+    </div>
+</section>
+
+</body>
+</html>

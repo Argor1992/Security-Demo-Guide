@@ -1,3 +1,5 @@
+// Authors: Roman Dudkevych, 1254719 und Thorsten Zieres, 1297197
+
 let navLinks = document.querySelectorAll('.smoothscroll');
 
 window.addEventListener('scroll', () => {

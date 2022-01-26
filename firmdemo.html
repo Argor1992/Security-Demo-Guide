@@ -84,25 +84,22 @@
                         <a class="smoothscroll" href="#startProgram">03</a>
                     </li>
                     <li class="links">
-                        <a class="smoothscroll" href="#startProgramError">04</a>
+                        <a class="smoothscroll" href="#ziel">04</a>
                     </li>
                     <li class="links">
-                        <a class="smoothscroll" href="#ziel">05</a>
+                        <a class="smoothscroll" href="#wegZumErstenLogin">05</a>
                     </li>
                     <li class="links">
-                        <a class="smoothscroll" href="#wegZumErstenLogin">06</a>
+                        <a class="smoothscroll" href="#ersterLogin">06</a>
                     </li>
                     <li class="links">
-                        <a class="smoothscroll" href="#ersterLogin">07</a>
+                        <a class="smoothscroll" href="#wegZumZweitenLogin">07</a>
                     </li>
                     <li class="links">
-                        <a class="smoothscroll" href="#wegZumZweitenLogin">08</a>
+                        <a class="smoothscroll" href="#zweiterLogin">08</a>
                     </li>
                     <li class="links">
-                        <a class="smoothscroll" href="#zweiterLogin">09</a>
-                    </li>
-                    <li class="links">
-                        <a class="smoothscroll" href="#fazit">10</a>
+                        <a class="smoothscroll" href="#fazit">09</a>
                     </li>
                 </ul>
             </nav>
@@ -115,13 +112,12 @@
                     <p class="bodytext">
                         Mit dieser Demo können Sie erfahren wie es ist in ein fremdes IT-System einzudringen. Hier werden Sie in die andere Perspektive
                         des Social Engineerings erfahren und was er/sie mit Passwörtern und anderen Daten anfangen kann. Durch unterschiedliche
-                        Maßnahmen konnte es den Angreifern gelingen Passwörter zu stehlen, um Quellcode für einen Prototypen zu klauen.
+                        Maßnahmen konnte es den Angreifern gelingen Passwörter zu stehlen, um Quellcode für einen Prototypen zu stehlen.
                         <br>
                         <br>
-                        Um die Demo laufen zu lassen benötigen Sie mindestens Java 11. Nachdem Sie Java installiert haben können Sie zum nächsten Schritt gehen.
-                         Ein Popup wird Ihnen den Link anzeigen über den Sie die Unternehmenswebsite erreichen können.
+                        Um die Demo laufen zu lassen benötigen Sie <strong>mindestens Java 11</strong>. Nachdem Sie Java installiert haben können Sie zum nächsten Schritt gehen.
                     </p>
-                        <a class="button" target="_blank" href="https://www.oracle.com/java/technologies/downloads/">Aktuelle Java Version</a>
+                    <a class="button" target="_blank" href="https://www.oracle.com/java/technologies/downloads/">Aktuelle Java Version</a>
                 </div>
             </div>
             <div class="imageContainer">
@@ -135,11 +131,13 @@
                     <h1 class="Header">Installation der Demo</h1>
                     <p class="bodytext">
                         Jetzt benötigen Sie noch das eigentliche Programm. Es handelt sich hierbei um ein Webportal der Firma
-                        Rich Solutions, das als Projektmanagementtool verwendet wird. Solche Plattformen sind natürlich ein
-                        gutes Ziel für einen Social Engineer, da hier sehr viele Informationen über Angestellte, Kunden
-                        und Projekte ablegen. Ziel ist es den Quellcode für ein bestimmtes Projekt downzuloaden. Ein reales
-                        Beispiel könnte Azure Devops sein, dieses Tool ist auch im Internet frei zugänglich und man benötigt
-                        lediglich die Zugangsdaten, was ein Kinderspiel ist.
+                        Rich Solutions, das als Projektmanagementtool verwendet wird. 
+                        Nachem Sie die Demo heruntergeladen haben, müssen Sie die heruntergeladene zip-Datein entpacken.
+                        Navigieren Sie dann in den Ordner target und starten sie das Programm companyportal-1.1-SNAPSHOT. Der Start des
+                        Programms kann im schlimmsten Fall je nach Hardware ~30 Sekunden dauern.
+                        <br>
+                        <br>
+                        <img class="mdrsimg" src="pictures/firm/start_program.PNG" alt="">
                     </p>
 
                     <a class="button" target="_blank" href="downloads/company-portal.zip" download>Download</a>
@@ -153,52 +151,23 @@
         <div id="startProgram">
             <div class="contentcontainer">
                 <div class="content">
-                    <h1 class="Header">Starten der Demo</h1>
+                    <h1 class="Header">Installation der Demo</h1>
                     <p class="bodytext">
-                        Wo Sie jetzt die Demo heruntergeladen haben, müssen Sie jetzt die heruntergeladene zip-Datein entpacken.
-                        Navigieren Sie dann in den Ordner und starten sie das Programm companyportal-1.1-SNAPSHOT. Der Start des
-                        Programms kann im schlimmsten Fall je nach Hardware ~30 Sekunden dauern. Das Programm funktioniert wie gewollt,
-                        wenn Sie das folgende Fenster auf Ihrem Desktop sehen. Unter Linux starten Sie bitte das Programm mit der Konsole.
-                        Navigieren sie dazu bitte mit dem Befehl cd in den target Ordner und führen Sie dann das Programm mit java -jar asdf
-                        aus.
+                        Wenn alles richtig gelaufen ist sehen Sie das folgende Fenster über das Sie die
+                        Webseite erreichen können.
                         <br>
                         <br>
-                        <img class="mdrsimg" src="pictures/firm/start_program.PNG" alt="">
                         <img class="demoSceenshots" src="pictures/firm/start_window.PNG" alt="">
-
+                        <br>
+                        <br>
+                        Sollten Sie Probleme mit dem Programmstart haben oder nicht wissen wie Sie ein
+                        Java Programm auf Ihrem Betriebssystem starten finden Sie hier Hilfe.
                     </p>
+                    <a class="button" href="firmdemoinstall.html">Hilfe zum Programmstart</a>
                 </div>
             </div>
             <div class="imageContainer">
                 <div class="image richSolutionsImage"></div>
-            </div>
-        </div>
-
-        <div id="startProgramError">
-            <div class="contentcontainer">
-                <div class="content">
-                    <h1 class="Header">Übliche Fehler</h1>
-                    <p class="bodytext">
-                        Wenn die Demo bei Ihnen richtig gestartet ist, können Sie diesen Abschnitt überspringen.
-                        <br>
-                        <br>
-                        Stellen Sie bitte sicher, dass Sie mindestens Java 11 installiert haben. Mit der neusten
-                        Java Version (aktuell Java 17) funktioniert der Start des Programms unter allen Betriebssystemen.
-                        Hier sind die entsprechenden Installationsdateien. Sollten die Installer nicht zu Ihrem
-                        Betriebssystem passen gehen Sie bitte zu oben verlinkten Seite von Oracle. Dort finden Sie
-                        auch andere Versionen.
-
-                        Java 11, 14, 15 und Java 17 wurde unter Windows, MacOs und Linux getestet und hat funktioniert.
-                    </p>
-                    <div style="display: flex; width: 100%; justify-content: space-between;">
-						<a class="button" target="_blank" href="downloads/Java/jdk-17_windows-x64_bin.exe" download>Windows</a>
-                        <a class="button" target="_blank" href="downloads/Java/jdk-17_linux-aarch64_bin.tar.gz" download>Linux</a>
-                        <a class="button" target="_blank" href="downloads/Java/jdk-17_macos-aarch64_bin.dmg" download>macOS</a>
-					</div>   
-                </div>
-            </div>
-            <div class="imageContainer">
-                <div class="image errorImage"></div>
             </div>
         </div>
 
@@ -207,6 +176,15 @@
                 <div class="content">
                     <h1 class="Header">Ziel des Social Engineers</h1>
                     <p class="bodytext">
+                        Solche Plattformen sind natürlich ein
+                        gutes Ziel für einen Social Engineer, da hier sehr viele Informationen über Angestellte, Kunden
+                        und Projekte zu finden sind. Ziel ist es den Quellcode für ein bestimmtes Projekt downzuloaden. Ein reales
+                        Beispiel könnte Azure Devops sein, dieses Tool ist auch im Internet frei zugänglich und man benötigt
+                        lediglich die Zugangsdaten, was ein Kinderspiel ist. Wenn man einmal mit einem User eingeloggt ist,
+                        kann man dort Quellcode für unterschiedliche Programme finden, Informationen über Mitarbeiter und
+                        vieles mehr.
+                        <br>
+                        <br>
                         Ab jetzt geht es mit der Demo richtig los. Was Sie gerade sehen ist die Loginseite
                         eines Tools der Firma Rich Solutions, das für das Projektmanagement genutzt wird.
                         Solche Tools sind regelmäßig frei im Internet zugänglich ohne VPN und man benötigt
