@@ -5,7 +5,7 @@
 }
 .toppi
     {
-        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("pictures/background.jpg");
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("pictures/design/background.jpg");
         background-size: cover;
         font-family: sans-serif;
         color: white;
