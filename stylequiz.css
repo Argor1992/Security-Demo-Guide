@@ -6,7 +6,7 @@
 
 .hauptbar{
     background-size: cover;
-    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("pictures/cyber-security.jpg");
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("pictures/design/cyber-security.jpg");
     font-family: sans-serif;
     color: white;
     width: 100%;
@@ -78,7 +78,7 @@ body {
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
     font-size: 16px;
-    background-image: url("pictures/quiz-b.jpg");
+    background-image: url("pictures/quiz/quiz-b.jpg");
 }
 *{
     box-sizing: border-box;
@@ -264,14 +264,14 @@ body {
 
 .quiz-box .answer-ind div.correct{
 
-    background-image: url("pictures/correct.png");
+    background-image: url("pictures/quiz/correct.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .quiz-box .answer-ind div.wrong{
-    background-image: url("pictures/wrong.jpg");
+    background-image: url("pictures/quiz/wrong.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
