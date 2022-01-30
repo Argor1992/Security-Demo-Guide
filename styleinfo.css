@@ -193,7 +193,7 @@ a.button {
 
 /*Bilder für Malware */
 .image.malewareImage {
-    background: url("pictures/maleware/Malware-b2.png") top right no-repeat fixed;
+    background: url("pictures/maleware/Malware-b2.jpg") top right no-repeat fixed;
     background-size: cover;
 }
 
@@ -230,10 +230,17 @@ a.button {
 
 .mzweiimg {
     height: 50%;
+    width: 100%;
 }
 
 .mdreiimg{
     height: 50%;
+    width: 100%;
+}
+
+.mvierimg{
+    height: 28%;
+    width: 100%;
 }
 
 
@@ -265,6 +272,7 @@ a.button {
 
 .dropimgzg{
     height: 40%;
+    width: 60%;
 }
 
 

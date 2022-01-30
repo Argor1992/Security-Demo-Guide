@@ -1,153 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Social Engeneering</title>
-    <link rel="stylesheet" href="styleinfo.css">
-    <link rel="stylesheet" href="css\all.min.css">
-    <link rel="stylesheet" href="css\fontawesome.min.css">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-
-
-</head>
-<body>
-<section class="hauptbar">
-    <div class="menu-bar">
-        <ul>
-            <li class="active"><a href="index.html">Home </a></li>
-            <li><a href="">First Chapter </a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="phishing.html">Information</a></li>
-                        <li><a href="phishingdemo.html">Demo</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><a href="#">Second Chapter</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="dropping.html">Information</a></li>
-                        <li><a href="droppingdemo.html">Demo</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><a href="#">Third Chapter</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="maleware.html">Information</a></li>
-                        <li><a href="malewaredemo.html">Demo</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><a href="#">Fourth Chapter</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="scam.html">Information</a></li>
-                        <li><a href="#">Demo</a></li>
-                    </ul>
-                </div>
-            </li>
-
-            <li><a href="#">Fifth Chapter</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="firminfo.html">Information</a></li>
-                        <li><a href="firmdemo.html">Demo</a></li>
-                    </ul>
-                </div>
-            </li>
-
-            <li><a href="quiz.html">QUIZ</a>
-            </li>
-
-        </ul>
-    </div>
-
-</section>
-
-<section class="droppi-text">
-    <div class="container">
-        <div class="sidebar">
-            <div id="logo"></div>
-            <nav>
-                <ul>
-                    <li class="links">
-                        <a class="smoothscroll" href="#eins">01</a>
-                    </li>
-
-                    <li class="links">
-                        <a class="smoothscroll" href="#zwei">02</a>
-                    </li>
-
-                    <li class="links">
-                        <a class="smoothscroll" href="#drei">03</a>
-                    </li>
-                    <li class="links">
-                        <a class="smoothscroll" href="#vier">04</a>
-                    </li>
-
-
-                </ul>
-            </nav>
-        </div>
-
-        <!-----first section----->
-        <div id="eins">
-            <div class="contentcontainer">
-                <div class="content">
-                    <h1 class="Header">Phishing Demo</h1>
-                    <h1>Fakebook Webseite</h1>
-                    <p>Das ist die nachgeahmte Seite des Hackers. Aus Sicherheitsgründen darf die echte Facebook Seite <br>für die Demo nicht verwendet werden.<br><br>
-                    Bitte geben Sie zuerst im Terminal (CMD) den command <br>" <font color=red>php -S localhost:8000 </font>" ein.</p>
-                    
-                        <img class="peinsimg" src="pictures/phishing/p1.png">
-
-                    </p>
-
-                    
-                </div>
-            </div>
-            <div class="imageContainer">
-                <div class="image phishingImage"></div>
-            </div>
-        </div>
-        
-        
-
-        <!-----second section----->
-        <div id="zwei">
-            <div class="contentcontainer">
-    
-                <div class="content">
-                    <h1>Passwort abfangen</h1>
-                    <p>Der Hacker fängt die eingegebenen Informationen des Nutzers ab.<br>
-                        Die Datei findest du unter dem Pfad <font color=red>/Desktop/Guide/pictures/phishing/fakebook/save_login.txt</font></p>
-                    
-                        <img class="pzweiimg" src="pictures/phishing/ph2.png">
-
-                    </p>
-
-                </div>
-            </div>
-            <div class="imageContainer">
-                <div class="image phishingImage"></div>
-            </div>
-        </div>
-        
-        
-
-        <!-----third section----->
-        <div id="drei">
-            <div class="contentcontainer">
-                <div class="content">
-                    <h1>Email vom Hacker an das Opfer</h1>
-                    
-                    <p>Die Email bringt das Opfer dazu auf den Link zu klicken.<br><br></p>
-                
+  
                     <p style="border: 1px solid black;">Von&nbsp;&nbsp;  : fakebook.support@hotmail.de</p>
                     <p style="border: 1px solid black;">An&nbsp; &nbsp; &nbsp; : Chadrick.Cantwell@rich.de</p>
                     <p style="border: 1px solid black;">Betreff: Fakebook</p>
-
-
                     <h1>            Hallo user,</h1>
                     <p style="border: 1px solid black;">&nbsp;Ihre Mithilfe ist erforderlich!<br>
                         
@@ -207,7 +64,7 @@
         width: 29px;
         line-height: 23px;
         margin: -8px 7px -7px -30px;
-        padding: 25px;
+        padding: 2 25px 0 0;
         content: "f";
     }/* EOS */
     </style>
@@ -293,22 +150,25 @@
     }
     </script>
 </head>
-
 <body>
-    <a href="pictures/phishing/fakebook/index.php" class="fb connect" target="_blank">Sign in with Fakebook</a>
+    <a href="http://localhost:8000/Desktop/fakebook/index.php" class="fb connect">Sign in with Fakebook</a>
 
     <script type="text/javascript">
+    //<![CDATA[
 
+    //]]>
     </script>
 
     <script>
-
+    // tell the embed parent frame the height of the content
     if (window.parent && window.parent.parent) {
         window.parent.parent.postMessage(["resultsFrame", {
             height: document.body.getBoundingClientRect().height,
             slug: "Q495Y"
         }], "*")
     }
+
+    // always overwrite window.name, in case users try to set it manually
     window.name = "result"
     </script>
 
@@ -328,44 +188,8 @@
         }
     })
     </script>
-</body>
-                </div>
-            </div>
-            <div class="imageContainer">
-                <div class="image phishingImage"></div>
-            </div>
-        </div>
-        <script src="./info.js"></script>
-    </div>
-
-</section>
-
-<!-----4 section----->
-<div id="vier">
-    <div class="contentcontainer">
-        
-        <div class="content">
-            <h1>Passwort abfangen</h1>
-            <p>Der Hacker fängt die eingegebenen Informationen des Nutzers ab.<br>
-                Die Datei findest du unter dem Pfad: /Desktop/Guide/pictures/phishing/fakebook/save_login.txt<br></p>
-
-            </p>
-            <div class="textdatei">
-                <object data="pictures/phishing/fakebook/save_login.txt" type="text/plain" width="800" height="200"></object>
-                </div>
-        </div>
-    </div>
-  
-    
-        <div class="imageContainer">
-            <div class="image phishingImage"></div>
-        </div>
-        
-
-</div>
 
 
 </body>
 </html>
-
 
