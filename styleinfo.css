@@ -223,10 +223,17 @@ a.button {
     background: url("pictures/maleware/virus.jpeg") top right no-repeat fixed;
     background-size: cover;
 }
-
 .image.virenImage{
     background: url("pictures/maleware/virus.jpeg") top right no-repeat fixed;
     background-size: cover;
+}
+
+.mzweiimg {
+    height: 50%;
+}
+
+.mdreiimg{
+    height: 50%;
 }
 
 
@@ -254,6 +261,10 @@ a.button {
 .image.mediaDroppingImageSchutz2{
     background: url("pictures/dropping/media_dropping3.jpg") top right no-repeat fixed;
     background-size: cover;
+}
+
+.dropimgzg{
+    height: 40%;
 }
 
 
