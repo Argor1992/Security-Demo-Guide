@@ -1,4 +1,7 @@
-
+/**
+ * @author Roman Dudkevych 1254716
+ *
+ */
 
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
