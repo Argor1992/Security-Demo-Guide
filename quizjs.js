@@ -24,7 +24,7 @@ const quiz = [
     },
 
     {
-        q:'Welche der folgenden Aussagen sind zu Maleware falsch? ',
+        q:'Welche der folgenden Aussagen sind zu Malware falsch? ',
         options:[
             'Nur Dateien vertrauen, die aus vertrauten Quellen stammen.',
             'Malware Infektionen beschränken sich nicht auf ein Gerät und können sich verbreiten.',
@@ -53,7 +53,7 @@ const quiz = [
             'Bewusstseinsschulung',
             'Antivirensoftware installieren, da sie ernsthaftes Interesse daran haben, Ahnungslosen zu helfen.',
             'Sie haben keine Freunde und wollen sich nur unterhalten',
-            'Software des opfers benutzen, da sie selbst kein Geld haben'],
+            'Software des Opfers benutzen, da sie selbst kein Geld haben'],
         answer:2
     },
 
@@ -62,7 +62,7 @@ const quiz = [
         options:[
             'Der Betrüger könnte vor den Augen des Opfers das standardmäßig unter Windows installierte Programm ' +
             'Event Viewer öffnen.',
-            'Der Betrüger versucht Steam oder Origin zu intsallieren',
+            'Der Betrüger versucht Steam oder Origin zu installieren',
             'Der Betrüger sucht nach einem Lan-Password',
             'Das Programm syskey kann nicht missbräuchlich vom Betrüger verwendet werden ' +
             'und ist deswegen zu vernachlässigen',
@@ -73,7 +73,7 @@ const quiz = [
     {
         q:'Welche der folgenden Maßnahmen können einen Betrieb vor Social Engineering Attacken schützen?',
         options:[
-            'Regelmäßige Unitytests',
+            'Regelmäßige Unittests',
             'Verschlüsselung ',
             'Ausführliche technische Dokumentation für die Mitarbeiter',
             'Fortlaufende Mitarbeiterschulungen',
@@ -116,13 +116,34 @@ const quiz = [
             'Eine Phishing Mail mit einem Anhang kann Schadsoftware auf dem PC, Smartphone oder Tablet installieren',
             'Sobald die Email nur geöffnet wird, hat der Hacker Zugriff auf den kompletten PC',
             'Öffnet man eine phishing Mail für Instagram, hat der Hacker Zugriff auf den Instagram Account',
-            'Ungefährlich, denn Phsihing Mails landen immer im Spamordner und sind somit leicht zu erkennen',
+            'Ungefährlich, denn Phishing Mails landen immer im Spamordner und sind somit leicht zu erkennen',
             'Ungefährlich, da E-Mail Dienste phishing Mails immer erkennen und den Nutzer warnen'
         ],
         answer:0
 
+    },
+
+    {
+        q:'Welche Person wäre besonders anfällig für einen Scam-Anruf?',
+        options:[
+            'Ein Geschäftsführer',
+            'Ein gestandener Entwickler',
+            'Jemand aus dem Service Desk',
+            'Ein ganz neuer Angestellter',
+            'Die Teamleiterin'
+        ],
+        answer:3
+    },
+
+    {
+        q:'Mit welcher Maßnahme kann man am besten Webseiten gegen Social Engineering schützen?',
+        options:[
+            'Kein Login-System',
+            'Mit Zwei-Faktor-Authentifizierung',
+            'Besseres UI-Design',
+            'Komplexerer Code',
+            'Spagetti-Code'
+        ],
+        answer:1
     }
-
-
-
 ]

@@ -67,6 +67,13 @@ Q.10: Welche Maßnahmen können NICHT vor Scam-Anrufen schützen?
 	option 2 : Durch gezielte Fragen die Identität des Anrufers feststellen
 	option 3 : Keine Software nach Aufforderung am Telefon installieren
 	option 4 : Identitätsnachweis am Telefon mit Personalnummer
+
+Q.11: Welche Person wäre besonders anfällig für einen Scam-Anruf? 
+	option 0 : Ein Geschäftsführer
+	option 1 : Ein gestandener Entwickler 
+	option 2 : Jemand aus dem Service Desk
+	option 3 : Ein ganz neuer Angestellter
+	option 4 : Die Teamleiterin
  
 
 
