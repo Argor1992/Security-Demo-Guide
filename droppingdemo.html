@@ -11,13 +11,7 @@
 <section class="hauptbar">
     <div class="menu-bar">
         <ul>
-            <li class="active"><a href="index.html">Home </a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="einleitung.html">Einleitung</a></li>
-                    </ul>
-                </div>
-            </li>
+            <li class="active"><a href="index.html">Home </a></li>
             <li><a href="">First Chapter </a>
                 <div class="sub-menu-1">
                     <ul>
@@ -46,7 +40,7 @@
                 <div class="sub-menu-1">
                     <ul>
                         <li><a href="scam.html">Information</a></li>
-                        <li><a href="scamdemo.html">Demo</a></li>
+                        <li><a href="#">Demo</a></li>
                     </ul>
                 </div>
             </li>
@@ -62,9 +56,9 @@
 
             <li><a href="quiz.html">QUIZ</a>
             </li>
-
         </ul>
     </div>
+
 </section>
 
 <section class="droppi-text">
@@ -74,59 +68,43 @@
             <nav>
                 <ul>
                     <li class="links">
-                        <a class="smoothscroll" href="#beschreibungDropping">00</a>
+                        <a class="smoothscroll" href="#qrcodes">00</a>
                     </li>
-
                     <li class="links">
-                        <a class="smoothscroll" href="#zwei">01</a>
+                        <a class="smoothscroll" href="#beschreibungDropping">01</a>
                     </li>
-
                     <li class="links">
-                        <a class="smoothscroll" href="#drei">02</a>
+                        <a class="smoothscroll" href="#qrdemoeins">02</a>
                     </li>
-
+                    <li class="links">
+                        <a class="smoothscroll" href="#qrdemozwei">03</a>
+                    </li>
+                    <li class="links">
+                        <a class="smoothscroll" href="#usbeins">04</a>
+                    </li>
                 </ul>
             </nav>
         </div>
 
         <!-----first section----->
-        <div id="beschreibungDropping">
-            <div class="contentcontainer">
-                <div class="content">
-                    <h1 class="Header">DEMO-Datein</h1>
-                    <h2 class="subhead">Word Dateien mit Makros</h2>
-                    <p class="bodytext">Bei der ersten Datei handelt es sich um eine Word Datei, die im Falle eines
-                        „echten“ Angriffs dann auf einem Speichermedium abgelegt ist. Der Dateiname heißt
-                        „Betriebsgeheimnisse“. Dies soll die Neugier der Mitarbeiter wecken. Diese Word Datei ist
-                        jedoch keine „normale“ Word-Datei. Es handelt sich um eine Word Datei, die automatisch
-                        startende Makros beinhaltet. In den Standard Einstellungen von Word, wird beim öffenen
-                        automatisch gefragt, ob das Dokument mit Makros gestartet werden soll. Entscheidet man sich
-                        hier die Makros mit ausführen zu lassen, kann das Makro schadhafte Aktionen im Hintergrund
-                        ausführen. In unserer Demo Datei, wird jedoch nichts Schadhaftes ausgeführt, sondern
-                        lediglich eine TextBox angezeigt sowie die Wikipedia Website von Social Engineering aufgerufen.
-                        Dies soll demonstrieren, wie einfach Makros die Kontrolle über den Rechner übernehmen können.
-                        <br>
-                    </p>
-                </div>
-            </div>
-            <div class="imageContainer">
-                <div class="image droppingImage"></div>
-            </div>
-        </div>
 
-        <div id="eins">
+
+        <div id="qrcodes">
             <div class="contentcontainer">
                 <div class="content">
-                    <h1 class="Header">DEMO-DATEIEN</h1>
+                    <h1 class="Header">Einleitung</h1>
                     <h2 class="subhead">QR-Codes</h2>
-                    <p class="bodytext">Die zweite Demo Datei setzt auf einen QR-Code als Medium. Aus aktuellem Anlass wurde dabei
+                    <p class="bodytext">Die erste Demo Datei setzt auf einen QR-Code als Medium. Aus aktuellem Anlass wurde dabei
                         auf einen gefakten „Corona Bestimmungen“ QR-Code gesetzt. Dieser ist mit dem Firmenlogo der
                         „Rich Solutions“ versehen und soll damit möglichst authentisch aussehen.
                         In diesem Fall wird auf die Naivität der Mitarbeiter gesetzt, diesen QR-Code zu scannen.
-                        Hinter dem QR-Code können sich jedoch bei realen Angriffen Schadhafte (Download-)Links verbergen.
+                        Hinter dem QR-Code können sich jedoch bei realen Angriffen schadhafte (Download-)Links verbergen.
                         In dieser Demo Datei gelangt man allerdings mit dem Scannen erneut zur Wikipedia Website von Social Engineering.
                         Dadurch wird das Prinzip deutlich gemacht, dass sich hinter QR-Codes auch Inhalte verbergen können,
-                        die nicht im Zusammenhang mit dem stehen, wofür sie eigentlich dienen sollten.
+                        die nicht im Zusammenhang mit dem stehen, wofür sie eigentlich dienen sollten. Im Falle eines
+                        Angriffs mit einem präparierten QR-Code Dokument muss diese ebenfalls zunächst
+                        im Rahmen einer Tailgating-Aktion in den Unternehmensräumen bzw. in dem entsprechendem Bereich
+                        aufgehängt werden.
                     </p>
 
                 </div>
@@ -136,21 +114,27 @@
             </div>
         </div>
 
-        <!-----second section----->
-        <div id="zwei">
+        <div id="beschreibungDropping">
             <div class="contentcontainer">
                 <div class="content">
-                    <h1 class="Header">BEISPIEL RICH SOLUTIONS</h1>
-                    <p class="bodytext">
-                       Im Folgenden wird nun die praktische Umsetzung von Media Dropping und dessen Umsetzung mit Hilfe unserer Demo Dateien erläutert. Das Angriffsopfer ist dabei wieder der Mitarbeiter Chadrick Cuntwell der Rich Solutions.
+                    <h2 class="subhead">Word Dateien mit Makros</h2>
+                    <p class="bodytext">Bei der zweiten Datei handelt es sich um eine Word Datei, die im Falle eines
+                        „echten“ Angriffs dann auf einem Speichermedium abgelegt ist. Der Dateiname heißt
+                        „Betriebsgeheimnisse“. Dies soll die Neugier der Mitarbeiter wecken. Diese Word Datei ist
+                        jedoch keine „normale“ Word-Datei. Es handelt sich um eine, die automatisch
+                        startende Makros beinhaltet. In den Standard Einstellungen von Word, wird beim Öffnen
+                        automatisch gefragt, ob das Dokument mit Makros gestartet werden soll. Entscheidet man sich
+                        hier die Makros mit ausführen zu lassen, kann das Makro schadhafte Aktionen im Hintergrund
+                        ausführen. In der Demo-Datei, wird jedoch nichts Schadhaftes ausgeführt, sondern
+                        lediglich eine TextBox angezeigt sowie die Wikipedia Website von Social Engineering aufgerufen.
+                        Dies soll demonstrieren, wie einfach Makros die Kontrolle über den Rechner übernehmen können.
+                        Die präparierte Word-Datei, wurde auf einem Speichermedium, in diesem Fall auf einem USB Stick,
+                        gespeichert. Dieser infizierte USB-Stick wurde dann mittels einer Tailgaiting-Aktion
+                        in den Unternehmensräumen der Rich Solutions platziert. Um den Angriff noch effektiver zu gestalten, wird der
+                        USB-Stick zusätzlich mit der Beschriftung "Betriebsgeheimnisse" versehen. Hierbei hat sich der
+                        Hacker ebenfalls einem Teil des Social Engineerings bedient nämlich "Baiting".
                         <br>
-                        <br>
-                        Im Falle eines Angriffs mit unserer präparierten Word-Datei, muss diese zunächst auf einem Speichermedium, beispielsweise auf einem USB Stick, liegen. Dieser infizeirte USB-Stick wird dann mittels einer Tailgaiting Aktion in den Unternehmensräumen der Rich Solutions platziert. In diesem Fall gehen wir davon aus, dass der USB Stick unauffällig auf dem Arbeitsplatz von Chadrick Cuntwell platziert wurde. Um den Angriff noch effektiver zu gestalten, wird der USB-Stick zusätzlich mit der Beschriftung "Betriebsgeheimnisse" versehen. Diese Methodik ist ebenfalls Teil des Social Engineerings und nennt sich "Baiting".
-                        <br>
-                        Nun warten wir als Angreifer auf die menschliche Interaktion. Chadrick Cuntwell endeckt schließlich den USB-Stick und steckt ihn neugierig in seinen PC. Nun ist es fast schon zu spät. Die gleichnamige Word Datei "Betriebsgeheimnisse" beinhaltet Makros, die automatisch beim Öffnen im Hintergrund mit ausgeführt werden. Lediglich eine Zustimmung zum Aktivieren der Makros ist erforderlich. Dies sollte jedoch nicht das größte Hinderniss sein, da die meisten Menschen nicht einschätzen können, was genau ein Makro ist und was es in Hintergrund für Aktionen unbemerkt ausführen kann. Chadrick denk sich also nichts Böses und aktiveirt die Makros. In unserer Demo geschieht an dieser Stelle, wie oben bereits beschrieben, nichts  schadhaftes. Jedoch können mit genau solchen Methoden beispielsweise Chadricks Daten im Hintergrund unbemerkt abgegriffen werden. Chadrick Cuntwell ist folglich, durch seine Neugier, Opfer unseres Media Dropping Angriffs geworden.
-
                     </p>
-
                 </div>
             </div>
             <div class="imageContainer">
@@ -158,14 +142,19 @@
             </div>
         </div>
 
-        <!-----third section----->
-        <div id="drei">
+        <!-----Erster Abschnitt----->
+        <div id="qrdemoeins">
             <div class="contentcontainer">
                 <div class="content">
-                    <h1 class="Header">BEISPIEL RICH SOLUTIONS</h1>
+                    <h1 class="Header">QR-CODES UND BETRIEBSGEHEIMNISSE</h1>
                     <p class="bodytext">
-                        Im Falle eines Angriffs mit unserem präparerten QR-Code Dokument, muss diese ebenfalls zunächst im Rahmen einer Tailgaiting Aktion in den Unternehmensräumen der Rich Solutions aufgehangen werden. Nach dem unser "Corona-Bestimmungen" Plakat auffällig platziert wurde, ist nun ebenfals wieder die menschliche Interaktion erforderlich. Gehen wir also davon aus, Chadrick Cuntwell sieht dieses Plakat und scannt dieses mit seinem Smartphone. Er denkt, es handele sich um ein offizielles Dokument. Hierbei wird ihm jedoch seine Naivität und Gutgläubigkeit zum Verhängnis. Der QR-Code ist im Falle unserer Demo ebenfalls harmlos. Es soll lediglich verdeutlicht werden, dass sich hinter QR-Codes Inhalte verbergen können, die nicht im Zusammenhang zu den Informationen stehen, die ihn beschreiben. Im Falle eines realen Angriffs wird Chadrick Cuntwell, dann beispielsweise auf eine Phishing-Website weitergeleitet, auf der seine persönlichen Daten abgegriffen werden. Ebenfalls können sich hinter QR-Codes auch Download-Links verbergen, die Maleware auf Chadricks Gerät herunterladen. Chadrick Cuntwell ist folglich, durch seine Naivität und Gutgläubigkeit, Opfer unseres Media Dropping Angriffs geworden.
+                        7:30 und Chadrick Cantwell befindet sich auf dem Weg zur Arbeit. "Warum muss ich dort schon so
+                        früh aufkreuzen???" Bei dem Blick auf die ihn umgebenden Menschen muss er ungewollt an die
+                        Pandemie denken: "Schon wieder wurde ein Foto-Shooting von mir abgesagt. Wann hört es endlich auf?
+                        Jetzt schon 3G in der Bahn. Kein Bock ey."
 
+                        Beim Betreten des Firmengebäudes fällt ihm ein unübersehbar platziertes
+                        <a href="downloads/RichSolutionsCorona.pdf">Plakat  auf.<img class="dropimgzg" src="pictures/dropping/plakat.jpg" alt=""></a>
                     </p>
 
                 </div>
@@ -174,6 +163,60 @@
                 <div class="image droppingImage"></div>
             </div>
         </div>
+
+        <div id="qrdemozwei">
+            <div class="contentcontainer">
+                <div class="content">
+                    <p class="bodytext">
+                        "Auch hier können wir die Pandemie spüren" denkt sich Chadrick als er dieses Plakat
+                        sieht. Prompt scannt er dieses mit seinem Smartphone (das können Sie auch tun). Bedenken hat er keine, denn nicht nur
+                        trägt dieses Schreiben ein offizielles Firmenlogo, sondern es passt auch zu dem Umstand,
+                        dass jetzt überall irgendetwas wegen Pandemie gescannt werden soll.
+                        Chadrick wird auf eine Website weitergeleitet, auf der seine persönlichen
+                        Daten eingeben soll. "Nanu, diese hat die Firma von mir eigentlich schon. Aber was solls...".
+                        Ebenfalls verbirgt sich hinter dem QR-Cod auch Download-Link,
+                        welches irgendetwas im Hintergrund herunterlädt. Leider bemerkt Chadrick den Download nicht.
+
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image droppingImage"></div>
+            </div>
+        </div>
+
+
+
+        <!-----Zweiter Abschnitt----->
+        <div id="usbeins">
+            <div class="contentcontainer">
+                <div class="content">
+                    <h1 class="Header">QR-CODES UND BETRIEBSGEHEIMNISSE</h1>
+                    <h2 class="subhead">USB-Dropping</h2>
+                    <p class="bodytext">
+                        <br>
+                        An seinem Arbeitsplatz angekommen bemerkt Chadrick einen USB-Stick.
+                        "Betriebsgeheimnisse...Ist es ein Scherz? Aber vielleicht ist dort wirklich etwas Hilfreiches drauf?"
+                        Neugierig steckt er den USB-Stick in seinen PC und sieht diesmal eine
+                        <a href="downloads/Betriebsgeheimnisse.docm">Betriebsgeheimnisse.docm</a> Datei.
+                        "Eine Doc-Datei anzugucken kann doch nicht schaden!" denkt sich Chadrick und startet diese.
+                        Lediglich eine Zustimmung zum Aktivieren der Makros ist erforderlich. "Makro...
+                        Ist damit Makroökonomik gemeint? Schließlich sind wir ein Wirtschaftsunternehmen. HA!
+                        Ich kann nicht nur Makro-, sondern auch Mikroökonomik". Chadrick denk sich also nichts Böses und aktiveirt die
+                        Makros. "Heeh, keine hilfreichen Informationen drin. War wohl doch ein Scherz.
+                        Aber ist ja eh nur eine Word-Datei. Was soll da schon schiefgehen???" Unbemerkt für ihn wurden
+                        mithilfe von Makros mehrere Aktionen im Hintergrund ausgeführt.
+                    </p>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <div class="image droppingImage"></div>
+            </div>
+        </div>
+
+
+
+
+
         
 
 
