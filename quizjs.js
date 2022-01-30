@@ -1,3 +1,8 @@
+/**
+ * @author Roman Dudkevych
+ * Fragen anteilig
+ */
+
 const quiz = [
     {
         q:'Welche der folgenden Aussagen sind zu Media Dropping richtig? ',
