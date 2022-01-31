@@ -1,6 +1,6 @@
 /**
  * @author Roman Dudkevych, 1254716 70%
- * @author horsten Zieres, 1297197 30%
+ * @author Thorsten Zieres, 1297197 30%
  */
 
 let navLinks = document.querySelectorAll('.smoothscroll');
