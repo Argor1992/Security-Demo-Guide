@@ -419,6 +419,12 @@ a.button {
     height: 10rem;
 }
 
+.buttonWrapper {
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between;
+}
+
 
 
 
