@@ -425,6 +425,12 @@ a.button {
     justify-content: space-between;
 }
 
+.button.buttonLeft {
+    float: left; 
+    margin-top:30px; 
+}
+
+
 
 
 
