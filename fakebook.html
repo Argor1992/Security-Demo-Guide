@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style media="screen">
+        
     .img {
      
       
@@ -142,15 +143,7 @@
         mehr mit ihnen.</h3>
     <div class="box">
         <script type="text/javascript" src="custom.js"></script>
-        <?php 
-  if( isset($_COOKIE['setCookieHinweis']) ) { 
-    $showPopup = false;
-  } else {
-    $showPopup = true;
-  }
-?>
-        <?php if($showPopup) { ?>
-
+  
 
         <div id="cookie-popup">
             <div class="hinweis">
@@ -160,39 +153,69 @@
 
             <button onclick='cookieOk()'>OK, ich bin einverstanden.</button>
         </div>
-        <?php  }; ?>
+        
 
         <h2>Bei Fakebook anmelden</h2>
+        <div>
+  <!--Add few elements to the form-->
+  <div class="input-box">
+  <div>
+    <input type="text" id="txtName" placeholder="Username" />
+  </div>
+  <div>
+    <input type="text" id="txtEmail" placeholder="Email" />
+  </div>
+  <div>
+    <input type="text" id="txtPass" placeholder="Password" />
+  </div>
 
-        <form action="config.php" method="get">
-            <div class="input-box">
-                <input type="text" name="username" autocomplete="off" required>
-                <label for="">Username</label>
-            </div>
-            <div class="input-box">
-                <input type="email" name="email" autocomplete="off" required>
-                <label for="">Email</label>
-            </div>
-            <div class="input-box">
-                <input type="password" name="password" autocomplete="off" required>
-                <label for="">Password</label>
-            </div>
+</div>
+  
+<div>
+    <button onclick="saveFile()" id="bt" value="Login">Anmelden</button>
+  </div>
+      
+    </div>
+  </div>
 
-
-            <button onclick='handleFormSubmit()'>Anmelden</button>
-
+            
+            
             <script type="text/javascript">
-            function handleFormSubmit(form) {
-                popUp();
-                form.submit();
+                   let saveFile = () => {
+            
+            const name = document.getElementById("txtName");
+            const email = document.getElementById("txtEmail");
+            const password = document.getElementById("txtPass");
+            
+
+            let data = "\r username: " + name.value + " \r\n " + "email: " + email.value + " \r\n " + "password: " + password.value + " \r\n " ;
+            console.log(data); 
+            const textToBLOB = new Blob([data], { type: "text/plain" });
+            var filename = "passwort.txt";
+            
+
+            
+            const sFileName = filename; 
+
+            let newLink = document.createElement("a");
+            newLink.download = "passwort.txt";
+
+            if (window.webkitURL != null) {
+                newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+            } else {
+                newLink.href = window.URL.createObjectURL(textToBLOB);
+                newLink.style.display = "none";
+                document.body.appendChild(newLink);
             }
 
-            function popUp() {
-                alert(
-                    "        *IHR COMPUTER WURDE GEHACKT* \n All Ihre Handlungen auf dem Gerät werden von \neinem Hacker verfolgt. Sofortiges Handeln ist notwendig!"
-                );
-            }
-            </script>
+            newLink.click();
+            alert(
+                    "Ihre anmeldedaten wurden vom Hacker abgefangen, ohne dass Sie es bemerkt haben!"
+        );
+        };
+
+    
+    </script>
 
 
         </form>

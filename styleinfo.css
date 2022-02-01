@@ -324,6 +324,11 @@ a.button {
     background-size: cover;
 }
 
+.phisimgchang{
+    height: 40%;
+    width: 100%;
+}
+
 
 /*Bilder für Support-Scam */
 .image.supportScamImage{
