@@ -3,6 +3,10 @@
  * @author Thorsten Zieres, 1297197 30%
  */
 
+
+/**
+ * Funktion um einen "smoothscroll" zu ermöglichen. Navigationsbar innerhalb der Info- sowie Demoseiten wird animiert.
+ */
 let navLinks = document.querySelectorAll('.smoothscroll');
 
 window.addEventListener('scroll', () => {

@@ -18,6 +18,9 @@ let availableOptions = [];
 let correctAnswers = 0;
 let attempts = 0;
 
+/**
+ * Aktuelle Fragen werden "gesetzt"
+ */
 function setAvailableQuestions(){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
@@ -25,6 +28,9 @@ function setAvailableQuestions(){
     }
 }
 
+/**
+ * Eine neue Frage wird geholt
+ */
 function getNewQuestion(){
     questionNumber.innerHTML = "Frage " + (questionCounter + 1) + " von " + quiz.length;
     const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
@@ -85,7 +91,7 @@ function getResult(element){
     unclickableOptions();
 }
 
-//verhindet weitere angabe
+//verhindet weitere Angabe
 function unclickableOptions(){
     const optionLen = optionContainer.children.length;
     for(let i=0;i<optionLen;i++){
@@ -93,6 +99,9 @@ function unclickableOptions(){
     }
 }
 
+/**
+ * Auswertung der Antworten
+ */
 function answerIdicator(){
     answerIndicatorContainer.innerHTML = '';
     const totalQuestion = quiz.length;
@@ -102,6 +111,9 @@ function answerIdicator(){
         }
 }
 
+/**
+ * Auswertung wird aktualisiert
+ */
 function updateAnswerIndicator(markType){
     answerIndicatorContainer.children[questionCounter-1].classList.add(markType);
 }
@@ -115,6 +127,9 @@ function next(){
     }
 }
 
+/**
+ * verstecken der Elemente nach dem Quiz
+ */
 function  quizOver(){
     //quizBox verstecken
     quizBox.classList.add("hide");
@@ -123,6 +138,9 @@ function  quizOver(){
     quizResult();
 }
 
+/**
+ * Endergebnis wird bekantegegeben
+ */
 function quizResult() {
     resultBox.querySelector(".total-questions").innerHTML = quiz.length;
     resultBox.querySelector(".total-attempt").innerHTML = attempts;
@@ -139,6 +157,10 @@ function resetQuiz(){
     attempts = 0;
 }
 
+
+/**
+ * Quiz wird neugestartet
+ */
 function againQuiz(){
 
     //Ergebnisse wieder verstecken
@@ -149,6 +171,9 @@ function againQuiz(){
     startQuiz();
 }
 
+/**
+ * Zum Anfang zurück gehen
+ */
 function goToHome(){
     //Ergebnisse wieder verstecken
     resultBox.classList.add("hide");
@@ -157,7 +182,9 @@ function goToHome(){
     resetQuiz();
 }
 
-// Anfang des Quizes
+/**
+ * Anfang des Quizes
+ */
 
 function startQuiz(){
 

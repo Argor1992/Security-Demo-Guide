@@ -10,6 +10,9 @@
  * 4 zu Firm - Thorsten Zieres 1297197
  */
 
+/**
+ * Fragen für den Quiz. Leicht zu erweitern.
+ */
 const quiz = [
     {
         q:'Welche der folgenden Aussagen sind zu Media Dropping richtig? ',
