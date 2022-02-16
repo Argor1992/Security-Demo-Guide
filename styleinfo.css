@@ -493,6 +493,9 @@ a.button {
     width: 160%;
 }
 
-
+.image.java{
+    background: url("pictures/design/java-minimalism-wide.jpg") top right no-repeat fixed;
+    background-size: cover;
+}
 
 
